@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className='navbar'>
             <img src={logo} alt="logo" className='logo' />
             <ul className='nav-menu'>
-                <li><AnchorLink className='anchor-link' offset={50} href="#home"><p onClick={()=> setMenu("home")}>Home</p></AnchorLink></li>
+                <li><AnchorLink className='anchor-link' href="#home"><p onClick={()=> setMenu("home")}>Home</p></AnchorLink></li>
 
                 <li><AnchorLink className='anchor-link' offset={50} href="#about"><p onClick={()=> setMenu("about")}>About Me</p></AnchorLink></li>
 
@@ -21,7 +21,7 @@ const Navbar = () => {
                 <li><AnchorLink className='anchor-link' offset={50} href="#contact"><p onClick={()=> setMenu("contact")}>Contact</p></AnchorLink></li>
 
             </ul>
-            <div className='nav-connect'>Connect With Me</div>
+            <div className='nav-connect'><AnchorLink className='anchor-link' offset={50} href="#contact">Connect with me</AnchorLink></div>
         </div>
     )
 }
