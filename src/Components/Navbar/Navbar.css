@@ -26,3 +26,13 @@
     font-size: 18px;
     cursor: pointer;
 }
+.nav-menu li{
+    display:flex;
+    flex-direction:column;
+    gap:5px;
+    cursor:pointer;
+}
+.anchor-link{
+    text-decoration:none;
+    color:white;
+}

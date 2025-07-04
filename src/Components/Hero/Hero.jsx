@@ -4,7 +4,7 @@ import profile_img from '../../assets/profile.png'
 
 const Hero = () => {
     return (
-        <div className='hero'>
+        <div id="home" className='hero'>
             <img src={profile_img} alt="profile-img" className='profile-img' />
             <h1><span>I'm Anjali Daharwal,</span>  Frontend Developer based in India.</h1>
             <p>I am a FullStack Developer from Gwalior, India with over 6 months of internship experience.</p>
